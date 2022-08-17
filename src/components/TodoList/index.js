@@ -1,7 +1,7 @@
 import React from 'react';
 import TodoCard from '../TodoCard';
+import './style.css'
 
-import './style.css';
 
 const Index = props => {
   console.log('props from list', props);

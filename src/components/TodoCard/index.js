@@ -9,8 +9,10 @@ const Index = props => {
         <h1>Todo Card</h1>
       </div>
       <div className='card-content'>
-        <div className='card-field'>Name : {name} </div>
-        <div className='card-field'>Description : {desc} </div>
+        <div className='card-field'> <b> Name: </b> </div>
+        <div className='card-answer'>{name} </div>
+        <div className='card-field'> <b> Description: </b> </div>
+        <div className='card-answer'>{desc} </div>
       </div>
       <button className='card-update' onClick={() => props.updateTodoHandler(id)}>
         Update
